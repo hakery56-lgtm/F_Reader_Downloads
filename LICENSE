@@ -1,0 +1,18 @@
+Copyright (c) 2026 Hasan Falah Hasan. All rights reserved.
+
+F Reader — source code, documentation and all other files in this repository, except the third-party components named below.
+
+This is proprietary software. No licence is granted to use, copy, modify, merge, publish, distribute, sublicense or sell this software or any part of
+it, in source or binary form, without the prior written permission of the copyright holder. Having access to this repository (for example as a
+collaborator) does not give you any of these rights. Use of the compiled application by customers is governed only by the End User License Agreement
+(EULA.txt) that comes with it.
+
+Third-party components: this software includes and is built on third-party open-source components (for example Electron, PDF.js, pdf-lib, qpdf,
+LibreOffice, Tesseract and the Opus-MT translation models). They are not covered by the notice above. Each remains under its own licence, which
+applies to that component; see THIRD-PARTY-NOTICES.txt and LICENSES-FULL.txt.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+Contact: hasan.falah.ai261@kus.edu.iq

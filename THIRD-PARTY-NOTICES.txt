@@ -1,0 +1,94 @@
+F Reader — open-source and third-party software notices
+=========================================================
+
+F Reader is © Hasan Falah Hasan. It includes the third-party software listed below. Each component remains the
+property of its authors and is used under its own license. Nothing in the F Reader license terms limits your rights
+under these licenses. Full license texts are in the files shipped with each component (see "Where to find the full
+text") and at the links given.
+
+Components that are bundled, unmodified unless stated
+-----------------------------------------------------
+
+Electron 45 (MIT) — https://www.electronjs.org — the application runtime. Includes Chromium and its own third-party
+  components under many licenses: see LICENSES.chromium.html in the application folder. Includes FFmpeg
+  (ffmpeg.dll, LGPL 2.1 or later; source: https://ffmpeg.org/ and https://github.com/electron/electron).
+
+LibreOffice 26.8 (Mozilla Public License 2.0, with third-party components under their own licenses incl. LGPL) —
+  https://www.libreoffice.org — bundled unmodified in resources\libreoffice and used in the background to open and
+  convert Word, Excel, PowerPoint and OpenDocument files. Its license and credits are in resources\libreoffice
+  (LICENSE.html, license.txt, NOTICE, CREDITS.fodt). Source code for this version is available from
+  https://download.documentfoundation.org/libreoffice/src/ and https://git.libreoffice.org/core . F Reader is not
+  affiliated with, or endorsed by, The Document Foundation. "LibreOffice" is a trademark of The Document Foundation.
+
+PDF.js 3.11 (Apache License 2.0) — © Mozilla and contributors — https://github.com/mozilla/pdf.js
+pdf-lib 1.17 (MIT) — © Andrew Dillon — https://github.com/Hopding/pdf-lib
+SheetJS Community Edition "xlsx" 0.18.5 (Apache License 2.0) — © SheetJS LLC — https://sheetjs.com
+mammoth 1.x (BSD 2-Clause) — © Michael Williamson — https://github.com/mwilliamson/mammoth.js
+JSZip 3.10 (used under the MIT license) — © Stuart Knightley, David Duponchel and contributors — https://stuk.github.io/jszip/
+UTIF.js 3.1 (MIT) — © Photopea — https://github.com/photopea/UTIF.js
+
+Tesseract OCR: tesseract.js 7.0 and tesseract.js-core (Apache License 2.0) — https://github.com/naptha/tesseract.js ;
+  Tesseract language data "tessdata_best" for English and Arabic (Apache License 2.0) — © Google and contributors —
+  https://github.com/tesseract-ocr/tessdata_best
+
+qpdf 12.4.2 (Apache License 2.0) — © Jay Berkenbilt — https://github.com/qpdf/qpdf — bundled unmodified with the
+  Microsoft Visual C++ runtime libraries (redistributable under Microsoft's redistribution terms).
+
+Machine translation (offline Arabic ⇄ English):
+  Opus-MT models opus-mt-ar-en and opus-mt-en-ar — © Language Technology Research Group, University of Helsinki
+  (Helsinki-NLP), licensed under Creative Commons Attribution 4.0 (CC BY 4.0) — https://creativecommons.org/licenses/by/4.0/
+  — https://huggingface.co/Helsinki-NLP . Used here in int8-quantized ONNX form (converted for transformers.js, which
+  is a change from the original PyTorch files).
+  Additional language packs (French, Spanish, German, Italian, Russian, Chinese, Hindi, Turkish, Japanese, Korean) are
+  other Opus-MT models of the same Helsinki-NLP project, under the same CC BY 4.0 license, downloaded on request from
+  https://huggingface.co/Xenova (ONNX int8 conversions of Helsinki-NLP/opus-mt-*). They are not part of the installer.
+  Transformers.js 4.x (Apache License 2.0, © Hugging Face), ONNX Runtime (MIT, © Microsoft), sharp (Apache License 2.0)
+  with libvips (LGPL 3.0 or later, https://github.com/libvips/libvips — shipped as a separate replaceable library file).
+
+Other npm packages (names and licenses): MIT — @huggingface/jinja, adm-zip, argparse, base64-js, bmp-js, core-util-is,
+  define-data-property, define-properties, es-define-property, es-errors, escape-string-regexp, globalthis, gopd,
+  has-property-descriptors, immediate, is-url, isarray, lie, matcher, node-fetch, object-keys, opencollective-postinstall,
+  path2d-polyfill, platform, process-nextick-args, regenerator-runtime, serialize-error, setimmediate, tr46, underscore,
+  util-deprecate, whatwg-url, zlibjs, pako (MIT AND Zlib), type-fest (MIT OR CC0). Apache-2.0 — adler-32, cfb, codepage,
+  crc-32, detect-libc, flatbuffers, frac, idb-keyval, long, ssf, wasm-feature-detect, wmf, word. BSD-3-Clause — protobufjs,
+  @protobufjs/*, global-agent, sprintf-js. BSD-2-Clause — dingbat-to-unicode, lop, option, webidl-conversions. ISC —
+  guid-typescript, inherits, semver.
+
+Fonts and color profiles
+------------------------
+F Reader does not ship Microsoft fonts or color profiles. When you choose to embed text or make a PDF/A file, it reads
+Arial and the sRGB profile from your own copy of Windows, only to write them into your document where Microsoft's font
+and profile terms permit that.
+
+Trademarks
+----------
+Word, Excel, PowerPoint, Windows and Arial are trademarks of Microsoft Corporation; PDF and Acrobat are trademarks of
+Adobe; Google is a trademark of Google LLC. They are used only to name file formats and the programs F Reader can work
+with. F Reader is not affiliated with or endorsed by these companies.
+
+Apache License 2.0 notice
+-------------------------
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use these components except in compliance
+with the License. You may obtain a copy at http://www.apache.org/licenses/LICENSE-2.0 . Unless required by applicable
+law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+MIT license (applies to the MIT components above, each with its own copyright holder)
+-------------------------------------------------------------------------------------
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and
+this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Where to find the full text
+---------------------------
+Electron / Chromium / FFmpeg: LICENSE and LICENSES.chromium.html in the F Reader folder.
+LibreOffice: resources\libreoffice\LICENSE.html (also license.txt, NOTICE, CREDITS.fodt).
+qpdf: resources\qpdf\NOTICE.txt and https://www.apache.org/licenses/LICENSE-2.0 .
+Every other component: the links above. To get the source of an LGPL or MPL component, or to replace the library file,
+use the links above or write to hasan.falah.ai261@kus.edu.iq.
