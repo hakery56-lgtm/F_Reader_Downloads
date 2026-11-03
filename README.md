@@ -1,6 +1,6 @@
-﻿# MDF (formerly MDF) — downloads
+﻿# MDF (formerly F Reader) — downloads
 
-This repository only hosts the **installers** of MDF (formerly MDF) (see *Releases* on the right). It contains no source code.
+This repository only hosts the **installers** of MDF (formerly F Reader) (see *Releases* on the right). It contains no source code.
 
 * Website and download page: **https://f-reader.vercel.app**
 * Latest installer: the newest release in this repository (`MDF-Setup-<version>.exe`). The checksum (SHA-256) of each installer is in its release notes and on the website.
