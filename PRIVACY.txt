@@ -1,20 +1,20 @@
-F Reader — Privacy statement
+MDF — Privacy statement
 
 Updated: [2026/11/2]
 
-What F Reader collects: nothing. The Software does not collect, store on a server, or send any personal data, documents,
+What MDF collects: nothing. The Software does not collect, store on a server, or send any personal data, documents,
 usage statistics or crash reports. Its windows are blocked from web requests; the only connections it ever makes are described below.
 
-Update check: when F Reader starts and the computer is online, it requests one small file (version.json) from the F Reader website to see whether
+Update check: when MDF starts and the computer is online, it requests one small file (version.json) from the MDF website to see whether
 a newer version exists. If one does, it offers to open the website's download page. The request carries no documents, no personal data and no
 identifier; like any web request it shows your IP address to the website's host. If there is no internet connection, nothing happens.
 
-Install count: the first time F Reader is opened after a fresh installation (and only then — not after an update, not on later starts), it sends
-one request to the F Reader website saying that a copy of this version was installed, so the author can count installations. The request
+Install count: the first time MDF is opened after a fresh installation (and only then — not after an update, not on later starts), it sends
+one request to the MDF website saying that a copy of this version was installed, so the author can count installations. The request
 contains only the version number: no identifier, no name, no file or computer information; like any web request it shows your IP address
 to the website's host, which does not store it. If the computer is offline the request is tried again at the next start.
 
-Language packs: if you choose to translate to or from a language other than Arabic or English, F Reader asks
+Language packs: if you choose to translate to or from a language other than Arabic or English, MDF asks
 you first and then downloads that language's translation model (about 110 MB) from huggingface.co. Only the model file is
 requested — the text you translate and your documents are never sent. Huggingface.co, like any web server, sees your IP
 address and the file requested; see their privacy policy at https://huggingface.co/privacy . Downloaded language packs are
@@ -26,9 +26,10 @@ profile (under AppData\Roaming\pdf-reader and the temp folder). Temporary conver
 ends. Uninstalling the app does not delete your documents; delete the AppData\Roaming\pdf-reader folder to remove remembered
 tabs and settings.
 
-This website: the F Reader website (not the app) counts clicks on its Download button (a number and the date — no cookie, no IP address stored)
-and uses Vercel Web Analytics to count visits and page views. It sets no cookies and does not
-track you across sites; it records aggregated, anonymised information such as the page, country, browser and device type. The F Reader app
+This website: the MDF website (not the app) counts clicks on its Download button (a number and the date — no cookie, no IP address stored)
+and uses Vercel Web Analytics to count visits and page views. The installer file itself is downloaded from GitHub (github.com),
+which, like any web server, sees your IP address when you download it; see GitHub's privacy statement. It sets no cookies and does not
+track you across sites; it records aggregated, anonymised information such as the page, country, browser and device type. The MDF app
 itself contains no analytics.
 
 Contact: Hasan Falah Hasan — hasan.falah.ai261@kus.edu.iq

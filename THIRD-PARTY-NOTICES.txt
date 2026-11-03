@@ -1,8 +1,8 @@
-F Reader — open-source and third-party software notices
+MDF — open-source and third-party software notices
 =========================================================
 
-F Reader is © Hasan Falah Hasan. It includes the third-party software listed below. Each component remains the
-property of its authors and is used under its own license. Nothing in the F Reader license terms limits your rights
+MDF is © Hasan Falah Hasan. It includes the third-party software listed below. Each component remains the
+property of its authors and is used under its own license. Nothing in the MDF license terms limits your rights
 under these licenses. Full license texts are in the files shipped with each component (see "Where to find the full
 text") and at the links given.
 
@@ -17,13 +17,15 @@ LibreOffice 26.8 (Mozilla Public License 2.0, with third-party components under 
   https://www.libreoffice.org — bundled unmodified in resources\libreoffice and used in the background to open and
   convert Word, Excel, PowerPoint and OpenDocument files. Its license and credits are in resources\libreoffice
   (LICENSE.html, license.txt, NOTICE, CREDITS.fodt). Source code for this version is available from
-  https://download.documentfoundation.org/libreoffice/src/ and https://git.libreoffice.org/core . F Reader is not
+  https://download.documentfoundation.org/libreoffice/src/ and https://git.libreoffice.org/core . MDF is not
   affiliated with, or endorsed by, The Document Foundation. "LibreOffice" is a trademark of The Document Foundation.
 
 PDF.js 3.11 (Apache License 2.0) — © Mozilla and contributors — https://github.com/mozilla/pdf.js
 pdf-lib 1.17 (MIT) — © Andrew Dillon — https://github.com/Hopding/pdf-lib
 SheetJS Community Edition "xlsx" 0.18.5 (Apache License 2.0) — © SheetJS LLC — https://sheetjs.com
 mammoth 1.x (BSD 2-Clause) — © Michael Williamson — https://github.com/mwilliamson/mammoth.js
+docx-preview 0.4.1 (Apache License 2.0) — © Volodymyr Baydalka — https://github.com/VolodymyrBaydalka/docxjs
+pptx-preview 1.0.7 (ISC License; the package ships no license file — author field: "微信：_hit757_") — https://www.npmjs.com/package/pptx-preview
 JSZip 3.10 (used under the MIT license) — © Stuart Knightley, David Duponchel and contributors — https://stuk.github.io/jszip/
 UTIF.js 3.1 (MIT) — © Photopea — https://github.com/photopea/UTIF.js
 
@@ -56,15 +58,15 @@ Other npm packages (names and licenses): MIT — @huggingface/jinja, adm-zip, ar
 
 Fonts and color profiles
 ------------------------
-F Reader does not ship Microsoft fonts or color profiles. When you choose to embed text or make a PDF/A file, it reads
+MDF does not ship Microsoft fonts or color profiles. When you choose to embed text or make a PDF/A file, it reads
 Arial and the sRGB profile from your own copy of Windows, only to write them into your document where Microsoft's font
 and profile terms permit that.
 
 Trademarks
 ----------
 Word, Excel, PowerPoint, Windows and Arial are trademarks of Microsoft Corporation; PDF and Acrobat are trademarks of
-Adobe; Google is a trademark of Google LLC. They are used only to name file formats and the programs F Reader can work
-with. F Reader is not affiliated with or endorsed by these companies.
+Adobe; Google is a trademark of Google LLC. They are used only to name file formats and the programs MDF can work
+with. MDF is not affiliated with or endorsed by these companies.
 
 Apache License 2.0 notice
 -------------------------
@@ -87,7 +89,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 
 Where to find the full text
 ---------------------------
-Electron / Chromium / FFmpeg: LICENSE and LICENSES.chromium.html in the F Reader folder.
+Electron / Chromium / FFmpeg: LICENSE and LICENSES.chromium.html in the MDF folder.
 LibreOffice: resources\libreoffice\LICENSE.html (also license.txt, NOTICE, CREDITS.fodt).
 qpdf: resources\qpdf\NOTICE.txt and https://www.apache.org/licenses/LICENSE-2.0 .
 Every other component: the links above. To get the source of an LGPL or MPL component, or to replace the library file,
